@@ -1,0 +1,177 @@
+#map {
+	position:relative;
+}
+#map svg path{
+	fill: transparent;
+	stroke: white;
+	cursor:pointer;
+	transition:0.1s;
+}
+#map svg path#passive{
+	stroke-width: 20px;
+	stroke-dasharray: 27px,44px;
+	stroke: rgba(255, 255, 255, 0.6);
+	cursor:default;
+}
+#map svg path#sevan{
+	fill: rgba(15, 130, 203, 1)!important;
+	stroke: transparent;
+}
+#map svg path#sevan:hover{
+	fill: rgb(14, 154, 194);
+	stroke: transparent;
+}
+#map svg path#passive:hover{
+	fill:transparent!important;
+}
+#map svg path:hover{
+	fill: rgba(255, 255, 255, 0.2)!important;
+}
+#map span{
+	display:none;
+	padding: 4px 15px;
+	color: #FFFFFF;
+	font-size: 14px;
+	position: absolute;
+	z-index: 1000;
+	white-space: nowrap;
+	border-radius: 5px;
+	border: 2px solid #FFFFFF;
+	background: rgb(110, 110, 110);
+	cursor:pointer;
+}
+#map span:hover{
+	display:inline!important;
+}
+.selected_state{
+	display:inline!important;
+}
+.lori{
+	right: 480px;
+	bottom: 456px;
+}
+.shirak{
+	right: 588px;
+	top: 68px;
+}
+.tavush{
+	right: 348px;
+	top: 95px;
+}
+.aragatsotn{
+	top: 208px;
+	left: 57px;
+}
+.kotayk{
+	left: 188px;
+	top: 218px;
+}
+.gegharkunik{
+	right: 285px;
+	bottom: 259px;
+}
+.armavir{
+	left: 54px;
+	top: 268px;
+}
+.yerevan{
+	left: 160px;
+	top: 281px;
+}
+.ararat{
+	left: 212px;
+	bottom: 212px;
+}
+.vayots-dzor{
+	right: 278px;
+	bottom: 179px;
+}
+.syunik{
+	right: 144px;
+	bottom: 76px;
+}
+ 
+/* #map area{
+	cursor:pointer;
+}
+#map area:hover{
+	position: relative;
+}
+
+#lori:hover ~.lori{
+	display:inline;
+}
+.lori{
+	right: 300px;
+	bottom: 355px;
+}
+#shirak:hover ~.shirak{
+	display:inline;
+}
+.shirak{
+	right: 390px;
+	bottom: 320px;
+}
+#tavush:hover ~.tavush{
+	display:inline;
+}
+.tavush{
+	right: 205px;
+	bottom: 363px;
+}
+#aragatsotn:hover ~.tavush{
+	display:inline;
+}
+.aragatsotn{
+	bottom: 296px;
+	left: 15px;
+}
+#kotayk:hover ~.kotayk{
+	display:inline;
+}
+.kotayk{
+	right: 231px;
+	bottom: 254px;
+}
+#gegharkunik:hover ~.gegharkunik{
+	display:inline;
+}
+.gegharkunik{
+	right: 130px;
+	bottom: 220px;
+}
+#armavir:hover ~.armavir{
+	display:inline;
+}
+.armavir{
+	right: 365px;
+	bottom: 230px;
+}
+#yerevan:hover ~.yerevan{
+	display:inline;
+}
+.yerevan{
+	right: 290px;
+	bottom: 230px;
+}
+#ararat:hover ~.ararat{
+	display:inline;
+}
+.ararat{
+	right: 240px;
+	bottom: 180px;
+}
+#vayots-dzor:hover ~.vayots-dzor{
+	display:inline;
+}
+.vayots-dzor{
+	right: 145px;
+	bottom: 140px;
+}
+#syunik:hover ~.syunik{
+	display:inline;
+}
+.syunik{
+	right: 20px;
+	bottom: 5px;
+} */

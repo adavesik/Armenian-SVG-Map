@@ -1,0 +1,118 @@
+@font-face {
+	font-family: "Flaticon";
+	src: url("flaticon.eot");
+	src: url("flaticon.eot#iefix") format("embedded-opentype"),
+	url("flaticon.woff") format("woff"),
+	url("flaticon.ttf") format("truetype"),
+	url("flaticon.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+	font-family: Flaticon;
+	font-style: normal;
+}
+.flaticon-add149:before {
+	content: "\e000";
+}
+.flaticon-at2:before {
+	content: "\e001";
+	margin-right:6px;
+	font-size:21px;
+}
+.flaticon-avatar4:before {
+	content: "\e002";
+}
+.flaticon-browser71:before {
+	content: "\e003";
+	font-size:20px;
+}
+.flaticon-cellphone3:before {
+	content: "\e004";
+}
+.flaticon-coins24:before {
+	content: "\e005";
+}
+.flaticon-coins31:before {
+	content: "\e006";
+}
+.flaticon-computer209:before {
+	content: "\e007";
+}
+.flaticon-currencysymbol:before {
+	content: "\e008";
+}
+.flaticon-facebook51:before {
+	content: "\e009";
+}
+.flaticon-gift41:before {
+	content: "\e00a";
+}
+.flaticon-import:before {
+	content: "\e00b";
+}
+.flaticon-iphone11:before {
+	content: "\e00c";
+}
+.flaticon-mega:before {
+	content: "\e00d";
+}
+.flaticon-movie10:before {
+	content: "\e00e";
+}
+.flaticon-movie43:before {
+	content: "\e00f";
+}
+.flaticon-odnolassniki1:before {
+	content: "\e010";
+	margin-right:6px;
+	font-size:21px;
+}
+.flaticon-pendrive12:before {
+	content: "\e011";
+	font-size:30px;
+}
+.flaticon-profile11:before {
+	content: "\e012";
+}
+.flaticon-screen54:before {
+	content: "\e013";
+	font-size:26px;
+}
+.flaticon-sign20:before {
+	content: "\e014";
+}
+.flaticon-speedometer26:before {
+	content: "\e015";
+}
+.flaticon-sun94:before {
+	content: "\e016";
+}
+.flaticon-telephone45:before {
+	content: "\e017";
+}
+.flaticon-tv12:before {
+	content: "\e018";
+	font-size: 28px;
+}
+.flaticon-two349:before {
+	content: "\e019";
+}
+.flaticon-undo13:before {
+	content: "\e01a";
+}
+.flaticon-wifi34:before {
+	content: "\e01b";
+}
+.flaticon-youtube30:before {
+	content: "\e01c";
+	margin-right:6px;
+	font-size:21px;
+	margin-top: 8px;
+    display: inline-block;
+}
+.flaticon-youtube31:before{
+	content: "\e01c";
+    font-size: 26px;
+}

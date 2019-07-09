@@ -1,0 +1,304 @@
+@-moz-document url-prefix() {
+		main form > section #address ,main form > section #address #unavailability,#success h1, #fail h1{
+	
+	}
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@media screen and (max-width: 1440px) {
+	header > section{
+		width: 70%!important;
+	}
+	main form > section > section{
+		width: 96%!important;
+	}
+	main form section #address{
+		width: 70%!important;
+	}
+	.navigation{
+		display:none;
+	}
+	#packages{
+		width:96%!important;
+	}
+	main form > section > section #map{
+		margin:0 auto!important;
+	}
+	main form > section > section #map svg{
+		width:630px!important;
+		margin:0 auto!important;
+	}
+	#slide_3 #personal_details{
+		width: 55%!important;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	header > section{
+		width:95%!important;
+	}
+	.service{
+		width:95%!important;
+	}
+	main form section #address{
+		width: 90%!important;
+	}
+	main form > section > section{
+		width:75%!important;
+	}
+	#packages{
+		width:96%!important;
+	}
+	#packages > section img{
+		height: 78px;
+	}
+	main form > section > section #map{
+		margin:0 auto!important;
+	}
+	main form > section > section #map svg{
+		width:630px!important;
+		margin:0 auto!important;
+	}
+	#slide_3 #personal_details{
+		width: 75%!important;
+	}
+}
+
+@media screen and (max-width: 790px) {
+	.navigation{
+		display:none;
+	}
+	header{
+		padding: 16px!important;
+		box-shadow:none!important;
+		border-bottom:1px solid rgba(0,0,0,0.1);
+	}
+	header a:first-child{
+		height: 43px!important;
+		padding: 9px!important;
+		left: 15px!important;
+	}
+	header a:first-child svg{
+		width:24px!important;
+		height:24px!important;
+	}
+	main form > section > section h3:nth-child(1){
+		display:none;
+	}
+	main form > section > section h3:nth-child(2){
+		display:block!important;
+	}
+    header > sections {
+        width: 95%!important;
+		font-size: 18px!important;
+    }
+	main form > section{
+	padding: 4% 0!important;
+	}
+	main form section #address{
+		width: 95%!important;
+	}
+	main form > section > section{
+		width: 95%!important;
+	}
+	main form > section #address select, #address input{
+		display:inline-block!important;
+		height:35px!important;
+		font-size:12px!important;
+		width: 100%!important;
+	}
+
+	main form > section #address .addressinfo, #address #checker{
+		display: inline-block!important;
+	}
+	main form > section #address #availability h1, main form > section #address #unavailability h1, #success h1, #fail h1{
+		width: 95%!important;
+		font-size: 19px!important;
+	}
+	main form > section #address #availability h1 p, main form > section #address #unavailability h1 p, #success h1 p, #fail h1 p{
+		font-size: 14px!important;
+	}
+	main form > section > section h3{
+		font-size: 15px!important;
+		margin: 0 0 13px 0!important;
+	}
+	main form > section > section #map{
+		display: none!important;
+	}
+}
+
+@media screen and (max-width: 720px) {
+	header > section{
+		width:95%!important;
+	}
+}
+
+
+*{
+	outline:none;
+	box-sizing:border-box;
+	-moz-box-sizing: border-box;
+}
+html{
+	height:100%;
+}
+body{
+	width:100%;
+	margin:0;
+	font-family:Helvetica,Tahoma,sans-serif;
+	background-color:rgba(0, 0, 0, 0.05);
+}
+form > nav{
+	position: fixed;
+	right: 10px;
+	width: 60px;
+	border-radius: 5px;
+	top: 48%;
+	z-index:1000;
+}
+form > nav ul{
+	margin:0;
+	padding:0;
+}
+form > nav ul li{
+	list-style-type: none;
+}
+form > nav ul li a{
+	position:relative;
+	border-radius: 50%;
+	width: 25px;
+	height: 25px;
+	display: block;
+	margin: 15px auto;
+	border: 2px solid rgb(161, 161, 161);
+	transition: 0.1s;
+}
+form > nav ul li a:hover{
+	background-color:rgb(161, 161, 161);
+}
+form > nav ul li a:before{
+	display:none;
+	content: attr(data-title);
+	text-align: center;
+	color: white;
+	position: absolute;
+	background: rgb(161, 161, 161);
+	right: 30px;
+	padding: 5px 20px;
+	font-size: 15px;
+	top: -14px;
+	border-radius: 6px;
+}
+form > nav ul li a:hover:before{
+	display:block;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-weight:100;
+}
+.background{
+	top: 160px;
+	position: absolute;
+	z-index: -1000;
+}
+header{
+	width: 100%;
+	top:0;
+	background: white;
+	margin:0 auto;
+	padding: 20px;
+	text-align: center;
+	box-shadow:0px 0px 12px rgba(0,0,0,0.2);
+}
+header > section{
+	width: 49%;
+	margin: 0 auto;
+	display: inline-block;
+	position: relative;
+}
+header a:first-child{
+	height:50px;
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:20px;
+	margin:auto;
+	background: rgba(0, 0, 0,0.1);
+	padding: 10px;
+	border-radius: 10px;
+}
+header a:first-child:hover{
+	background: rgba(0, 0, 0,0.2);
+}
+header a:first-child svg{
+	width:30px;
+	height:30px;
+}
+header a:first-child svg g path{
+	fill:rgba(0, 0, 0, 0.3);
+}
+main{
+	display: inline-block;
+	width: 100%;	
+	margin: 0 auto;
+}
+main form > section{
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	padding: 20px 0;
+	text-align: center;
+	display:inline-block;
+}
+main form > section > section{
+	border-radius: 10px;
+	margin: 0 auto;
+	width: 49%;
+}
+main form > section > section h3{
+	margin: auto;
+	padding: 10px 0;
+	font-size:17px;
+	text-align:center;
+	background-color: rgba(255, 255, 255, 0.2);
+	color: white;
+	border-radius: 5px;
+	text-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+main form > section > section h3:nth-child(2){
+	display:none;
+}
+main form section #address{
+	padding: 14px;
+}
+main form > section > section #map{
+	margin: 40px auto;
+	width:707px;
+}
+
+main form > section #address #unavailability h1{
+	color: white;
+	position: absolute;
+	top: 44%;
+	left: 0;
+	right: 0;
+	background: rgba(0,0,0,0.6);
+	font-size: 21px;
+	margin: auto;
+	padding: 10px;
+	display: block;
+	border-radius: 7px;
+	line-height: 1.4em;
+	width: 640px;
+}
+main form > section #address #unavailability h1 p{
+	font-size: 16px;
+	margin: 8px 0 0 0;
+}
+
+/*Slide 1 start*/
+#slide_1{
+	background: rgba(54, 111, 229, 1);
+}
+

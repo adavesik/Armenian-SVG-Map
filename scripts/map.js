@@ -1,0 +1,171 @@
+//$('#lori').hover(function(){
+//	$('.lori').hide();
+//}, function(){
+//	$('.lori').show();
+//});
+$("#lori,.lori").click(function(){
+	$('.lori').removeAttr('id');
+	$('.lori').addClass('selected_state');
+	$("#lori").css('fill','white');
+	$('#map svg path').slice(1,12).css('fill','transparent');
+	$('#map span').slice(1,12).removeClass('selected_state');
+});
+
+
+//$('#shirak,.shirak').hover(function(){
+//	$('.shirak').show();
+//}, function(){
+//	$('.shirak').hide();
+//});
+$("#shirak,.shirak").click(function(){
+	$('.shirak').removeAttr('id');
+	$('.shirak').addClass('selected_state');
+	$("#shirak").css('fill','white');
+	$('#map svg path').slice(0,1).css('fill','transparent');
+	$('#map span').slice(0,1).removeClass('selected_state');
+	$('#map svg path').slice(2,12).css('fill','transparent');
+	$('#map span').slice(2,12).removeClass('selected_state');
+
+});
+
+//$('#tavush,.tavush').hover(function(){
+//	$('.tavush').show();
+//}, function(){
+//	$('.tavush').hide();
+//});
+$("#tavush,.tavush").click(function(){
+	$('.tavush').addClass('selected_state');
+	$("#tavush").css('fill','white');
+	$('#map svg path').slice(0,2).css('fill','transparent');
+	$('#map span').slice(0,2).removeClass('selected_state');
+	$('#map svg path').slice(3,12).css('fill','transparent');
+	$('#map span').slice(3,12).removeClass('selected_state');
+});
+
+//$('#aragatsotn,.aragatsotn').hover(function(){
+//	$('.aragatsotn').show();
+//}, function(){
+//	$('.aragatsotn').hide();
+//});
+$("#aragatsotn,.aragatsotn").click(function(){
+	$('.aragatsotn').addClass('selected_state');
+	$("#aragatsotn").css('fill','white');
+	$('#map svg path').slice(0,3).css('fill','transparent');
+	$('#map span').slice(0,3).removeClass('selected_state');
+	$('#map svg path').slice(4,12).css('fill','transparent');
+	$('#map span').slice(4,12).removeClass('selected_state');
+});
+
+//$('#kotayk,.kotayk').hover(function(){
+//	$('.kotayk').show();
+//}, function(){
+//	$('.kotayk').hide();
+//});
+$("#kotayk,.kotayk").click(function(){
+	$('.kotayk').addClass('selected_state');
+	$('#kotayk').css('fill','white');
+	$('#map svg path').slice(0,4).css('fill','transparent');
+	$('#map span').slice(0,4).removeClass('selected_state');
+	$('#map svg path').slice(5,12).css('fill','transparent');
+	$('#map span').slice(5,12).removeClass('selected_state');
+});
+
+//$('#gegharkunik,.gegharkunik').hover(function(){
+//	$('.gegharkunik').show();
+//}, function(){
+//	$('.gegharkunik').hide();
+//});
+$("#gegharkunik,.gegharkunik").click(function(){
+	$('.gegharkunik').addClass('selected_state');
+	$('#gegharkunik').css('fill','white');
+	$('#map svg path').slice(0,5).css('fill','transparent');
+	$('#map span').slice(0,5).removeClass('selected_state');
+	$('#map svg path').slice(6,12).css('fill','transparent');
+	$('#map span').slice(6,12).removeClass('selected_state');
+});
+
+//$('#sevan').hover(function(){
+//	$('.gegharkunik').show();
+//	$('#gegharkunik').css('fill','rgba(255, 255, 255, 0.2)!important;');
+//}, function(){
+//	$('.gegharkunik').hide();
+//	$('#gegharkunik').css('fill','rgba(255, 255, 255, 0.2)!important');
+//});
+$("#sevan").click(function(){
+	$('.gegharkunik').addClass('selected_state');
+	$('#gegharkunik').css('fill','white');
+	$('#map svg path').slice(0,5).css('fill','transparent');
+	$('#map span').slice(0,5).removeClass('selected_state');
+	$('#map svg path').slice(7,12).css('fill','transparent');
+	$('#map span').slice(6,12).removeClass('selected_state');
+});
+
+//$('#armavir,.armavir').hover(function(){
+//	$('.armavir').show();
+//}, function(){
+//	$('.armavir').hide();
+//});
+$("#armavir,.armavir").click(function(){
+	$('.armavir').addClass('selected_state');
+	$('#armavir').css('fill','white');
+	$('#map svg path').slice(0,7).css('fill','transparent');
+	$('#map span').slice(0,6).removeClass('selected_state');
+	$('#map svg path').slice(8,12).css('fill','transparent');
+	$('#map span').slice(7,12).removeClass('selected_state');
+});
+
+//$('#yerevan,.yerevan').hover(function(){
+//	$('.yerevan').show();
+//}, function(){
+//	$('.yerevan').hide();
+//});
+$("#yerevan,.yerevan").click(function(){
+	$('.yerevan').addClass('selected_state');
+	$('#yerevan').css('fill','white');
+	$('#map svg path').slice(0,8).css('fill','transparent');
+	$('#map span').slice(0,7).removeClass('selected_state');
+	$('#map svg path').slice(9,12).css('fill','transparent');
+	$('#map span').slice(8,12).removeClass('selected_state');
+});
+
+//$('#ararat,.ararat').hover(function(){
+//	$('.ararat').show();
+//}, function(){
+//	$('.ararat').hide();
+//});
+$("#ararat,.ararat").click(function(){
+	$('.ararat').addClass('selected_state');
+	$("#ararat").css('fill','white');
+	$('#map svg path').slice(0,9).css('fill','transparent');
+	$('#map span').slice(0,8).removeClass('selected_state');
+	$('#map svg path').slice(10,12).css('fill','transparent');
+	$('#map span').slice(9,12).removeClass('selected_state');
+});
+
+//$('#vayots-dzor,.vayots-dzor').hover(function(){
+//	$('.vayots-dzor').show();
+//}, function(){
+//	$('.vayots-dzor').hide();
+//});
+$("#vayots-dzor,.vayots-dzor").click(function(){
+	$('.vayots-dzor').addClass('selected_state');
+	$('#vayots-dzor').css('fill','white');
+	$('#map svg path').slice(0,10).css('fill','transparent');
+	$('#map span').slice(0,9).removeClass('selected_state');
+	$('#map svg path').slice(11,12).css('fill','transparent');
+	$('#map span').slice(10,12).removeClass('selected_state');
+});
+
+//$('#syunik,.syunik').hover(function(){
+//	$('.syunik').show();
+//}, function(){
+//	$('.syunik').hide();
+//});
+$("#syunik,.syunik").click(function(){
+	$('.syunik').addClass('selected_state');
+	$('#syunik').css('fill','white');
+	$('#map svg path').slice(0,11).css('fill','transparent');
+	$('#map span').slice(0,10).removeClass('selected_state');
+	$('#map svg path').slice(12,12).css('fill','transparent');
+	$('#map span').slice(11,12).removeClass('selected_state');
+});

@@ -1,0 +1,32 @@
+@font-face {
+	font-family: "Flaticonnew";
+	src: url("flaticonnew.eot");
+	src: url("flaticonnew.eot#iefix") format("embedded-opentype"),
+	url("flaticonnew.woff") format("woff"),
+	url("flaticonnew.ttf") format("truetype"),
+	url("flaticonnew.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="flaticonnew-"]:before, [class*=" flaticonnew-"]:before,
+[class^="flaticonnew-"]:after, [class*=" flaticonnew-"]:after {   
+	font-family: Flaticonnew;
+	font-style: normal;
+}.flaticonnew-avatar4:before {
+	content: "\e000";
+}
+.flaticonnew-camera105:before {
+	content: "\e001";
+}
+.flaticonnew-responsive16:before {
+	content: "\e002";
+	font-size: 28px;
+}
+.flaticonnew-screens3:before {
+	content: "\e003";
+	font-size: 26px;
+}
+.flaticonnew-tvscreen24:before {
+	content: "\e004";
+	font-size: 28px;
+}
